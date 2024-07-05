@@ -1,0 +1,126 @@
+{
+  "catalogue": "Mục lục",
+  "menuItemData": {
+    "vanChuyen": {
+      "name": "Vận chuyển",
+      "sub": [
+        { "name": "Vận Chuyển 1" },
+        { "name": "Vận Chuyển 2" },
+        { "name": "Vận Chuyển 3" }
+      ]
+    },
+    "quanLyDonHang": {
+      "name": "Quản Lý Đơn Hàng",
+      "sub": [
+        { "name": "Tất Cả" },
+        { "name": "Đơn Hủy" },
+        { "name": "Trả Hàng/Hoàn Tiền" }
+      ]
+    },
+    "quanLySanPham": {
+      "name": "Quản Lý Sản Phẩm",
+      "sub": [
+        { "name": "Tất Cả Sản Phẩm" },
+        { "name": "Thêm Sản Phẩm" },
+        { "name": "Sản Phẩm Vi Phạm" },
+        { "name": "Cài Đặt Sản Phẩm" }
+      ]
+    },
+    "marketing": {
+      "name": "Kênh Marketing",
+      "sub": [
+        { "name": "Marketing 1" },
+        { "name": "Marketing 2" },
+        { "name": "Marketing 3" }
+      ]
+    },
+    "taiChinh": {
+      "name": "Tài Chinh",
+      "sub": [
+        { "name": "Tài Chinh 1" },
+        { "name": "Tài Chinh 2" },
+        { "name": "Tài Chinh 3" }
+      ]
+    },
+    "duLieu": {
+      "name": "Dữ Liệu",
+      "sub": [
+        { "name": "Dữ Liệu 1" },
+        { "name": "Dữ Liệu 2" },
+        { "name": "Dữ Liệu 3" }
+      ]
+    },
+    "phatTrien": {
+      "name": "Phát Triển",
+      "sub": [
+        { "name": "Phát Triển 1" },
+        { "name": "Phát Triển 2" },
+        { "name": "Phát Triển 3" }
+      ]
+    },
+    "chamSocKhach": {
+      "name": "Chăm Sóc Khách",
+      "sub": [
+        { "name": "Chăm Sóc Khách 1" },
+        { "name": "Chăm Sóc Khách 2" },
+        { "name": "Chăm Sóc Khách 3" }
+      ]
+    },
+    "quanLyShop": {
+      "name": "Quản Lý Shop",
+      "sub": [
+        { "name": "Cài Đặt Shop" },
+        { "name": "Cài Đặt Vận Chuyển" }
+      ]
+    }
+  },
+  "footer": {
+    "copyRight": "Ⓒ 2024 Shoop. Tất cả các quyền được bảo lưu",
+    "regions": "Quốc gia & Khu vực: Sigapore | Indonesia | Thái Lan | Malaysia | Việt Nam | Philippines",
+    "address": "Địa chỉ: Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình, Thành phố Hà Nội, Việt Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shoop.vn Ⓒ 2015 - Bản quyền thuộc về Công ty TNHH Shoop"
+  },
+  "customerCare": {
+    "title": "CHĂM SÓC KHÁCH HÀNG",
+    "links": [
+      { "text": "Trung Tâm Trợ Giúp" },
+      { "text": "Shoop Blog" },
+      { "text": "Hướng Dẫn Mua Hàng" },
+      { "text": "Hướng Dẫn Bán Hàng" },
+      { "text": "Thanh Toán" },
+      { "text": "Trả Hàng & Hoàn Tiền" },
+      { "text": "Chăm Sóc Khách Hàng" },
+      { "text": "Chính Sách Bảo Hành" }
+    ]
+  },
+  "aboutShoop": {
+    "title": "VỀ SHOOP",
+    "links": [
+      { "text": "Giới Thiệu Về Shoop Việt Nam" },
+      { "text": "Tuyển Dụng" },
+      { "text": "Điều Khoản Shoop" },
+      { "text": "Chính Sách Bảo Mật" },
+      { "text": "Kênh Người Bán" },
+      { "text": "Liên Hệ Với Truyền Thông" }
+    ]
+  },
+  "payment": {
+    "title": "THANH TOÁN",
+    "images": [
+      "pay_1.png",
+      "pay_2.png",
+      "pay_3.png",
+      "pay_4.png",
+      "pay_5.png",
+      "pay_6.png",
+      "pay_8.png"
+    ]
+  },
+  "followUs": {
+    "title": "THEO DÕI CHÚNG TÔI TRÊN",
+    "links": [
+      { "text": "Facebook" },
+      { "text": "Instagram" },
+      { "text": "LinkedIn" }
+    ]
+  }
+}

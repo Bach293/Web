@@ -1,0 +1,214 @@
+{
+  "catalogue": "Catalogue",
+  "menuItemData": {
+    "vanChuyen": {
+      "name": "Shipping",
+      "sub": [
+        {
+          "name": "Shipping 1"
+        },
+        {
+          "name": "Shipping 2"
+        },
+        {
+          "name": "Shipping 3"
+        }
+      ]
+    },
+    "quanLyDonHang": {
+      "name": "Order Management",
+      "sub": [
+        {
+          "name": "All Orders"
+        },
+        {
+          "name": "Cancelled Orders"
+        },
+        {
+          "name": "Returns/Refunds"
+        }
+      ]
+    },
+    "quanLySanPham": {
+      "name": "Product Management",
+      "sub": [
+        {
+          "name": "All Products"
+        },
+        {
+          "name": "Add Product"
+        },
+        {
+          "name": "Violated Products"
+        },
+        {
+          "name": "Product Settings"
+        }
+      ]
+    },
+    "marketing": {
+      "name": "Marketing Channels",
+      "sub": [
+        {
+          "name": "Marketing 1"
+        },
+        {
+          "name": "Marketing 2"
+        },
+        {
+          "name": "Marketing 3"
+        }
+      ]
+    },
+    "taiChinh": {
+      "name": "Finance",
+      "sub": [
+        {
+          "name": "Finance 1"
+        },
+        {
+          "name": "Finance 2"
+        },
+        {
+          "name": "Finance 3"
+        }
+      ]
+    },
+    "duLieu": {
+      "name": "Data",
+      "sub": [
+        {
+          "name": "Data 1"
+        },
+        {
+          "name": "Data 2"
+        },
+        {
+          "name": "Data 3"
+        }
+      ]
+    },
+    "phatTrien": {
+      "name": "Development",
+      "sub": [
+        {
+          "name": "Development 1"
+        },
+        {
+          "name": "Development 2"
+        },
+        {
+          "name": "Development 3"
+        }
+      ]
+    },
+    "chamSocKhach": {
+      "name": "Customer Care",
+      "sub": [
+        {
+          "name": "Customer Care 1"
+        },
+        {
+          "name": "Customer Care 2"
+        },
+        {
+          "name": "Customer Care 3"
+        }
+      ]
+    },
+    "quanLyShop": {
+      "name": "Shop Management",
+      "sub": [
+        {
+          "name": "Shop Settings"
+        },
+        {
+          "name": "Shipping Settings"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "copyRight": "Ⓒ 2024 Shoop. All rights reserved",
+    "regions": "Countries & Regions: Singapore | Indonesia | Thailand | Malaysia | Vietnam | Philippines",
+    "address": "Address: Capital Place Building, 29 Lieu Giai Street, Ngoc Khanh Ward, Ba Dinh District, Hanoi City, Vietnam. Support Hotline: 19001221 - Email: cskh@hotro.shoop.vn Ⓒ 2015 - Copyright belongs to Shoop Co., Ltd."
+  },
+  "customerCare": {
+    "title": "CUSTOMER CARE",
+    "links": [
+      {
+        "text": "Help Center"
+      },
+      {
+        "text": "Shoop Blog"
+      },
+      {
+        "text": "Buying Guide"
+      },
+      {
+        "text": "Selling Guide"
+      },
+      {
+        "text": "Payment"
+      },
+      {
+        "text": "Returns & Refunds"
+      },
+      {
+        "text": "Customer Care"
+      },
+      {
+        "text": "Warranty Policy"
+      }
+    ]
+  },
+  "aboutShoop": {
+    "title": "ABOUT SHOOP",
+    "links": [
+      {
+        "text": "Introduction to Shoop Vietnam"
+      },
+      {
+        "text": "Career Opportunities"
+      },
+      {
+        "text": "Shoop Terms of Use"
+      },
+      {
+        "text": "Privacy Policy"
+      },
+      {
+        "text": "Seller Channel"
+      },
+      {
+        "text": "Media Contact"
+      }
+    ]
+  },
+  "payment": {
+    "title": "PAYMENT",
+    "images": [
+      "pay_1.png",
+      "pay_2.png",
+      "pay_3.png",
+      "pay_4.png",
+      "pay_5.png",
+      "pay_6.png",
+      "pay_8.png"
+    ]
+  },
+  "followUs": {
+    "title": "FOLLOW US",
+    "links": [
+      {
+        "text": "Facebook"
+      },
+      {
+        "text": "Instagram"
+      },
+      {
+        "text": "LinkedIn"
+      }
+    ]
+  }
+}
