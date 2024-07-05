@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoop - Nền tảng website bán hàng số 1 Việt Nam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="assets/img/logo.png" sizes="30x30" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/detail-product.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container-fluid text-center">
+            <nav class="row navbar navbar-expand-lg px-7 a-white menu-navbar">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Kênh người bán</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sign-up.html">Trở thành người bán hàng</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Thông báo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hỗ trợ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Đăng ký</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Đăng nhập</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="row align-items-center px-7 py-3">
+                <div class="col-3 text-start">
+                    <img src="assets/img/logo.png" alt="" class="d-block w-75">
+                </div>
+                <div class="col-7 text-center input-container" style="transform: translateY(80%);">
+                    <input type="text" class="form-control">
+                    <button type="button" class="btn btn-success"><i class="bi bi-search"></i></button>
+                </div>
+                <div class="col-2">
+                    <a href="#" class="a-black">
+                        <i class="bi bi-cart4 fs-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main -->
+    <main>
+        <div class="container-fluid text-center">
+            <div class="row bg-e0e0e0">
+                <div class="col-12 px-7 pt-3 text-start d-flex align-items-center">
+                    <p> <span class="font-color_green">Shop</span> / <span class="font-color_green">Máy tính &
+                            Laptop</span> / <span class="font-color_green">Laptop</span> / <span> Máy tính xách tay Apple
+                            MacBook Air (2020) M1 Chip, 13.3-inch,
+                            8GB, 256GB SSD</span></p>
+                </div>
+                <div class="col-12 px-7">
+                    <div class="bg-white">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12 col-12 p-4">
+                                    <img class="d-block w-100" src="assets/img/product_1.png" alt="">
+                                    <div id="carouselExample" class="carousel slide carousel-fade">
+                                        <div class="carousel-inner carousel-inner-img">
+                                            <div class="carousel-item active">
+                                                <img src="assets/img/product_2.png" alt="...">
+                                                <img src="assets/img/product_3.png" alt="...">
+                                                <img src="assets/img/product_2.png" alt="...">
+                                                <img src="assets/img/product_2.png" alt="...">
+                                                <img src="assets/img/product_2.png" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/product_2.png" alt="...">
+                                                <img src="assets/img/product_2.png" alt="...">
+                                                <img src="assets/img/product_3.png" alt="...">
+                                                <img src="assets/img/product_2.png" alt="...">
+                                                <img src="assets/img/product_2.png" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/product_2.png" alt="...">
+                                                <img src="assets/img/product_2.png" alt="...">
+                                                <img src="assets/img/product_2.png" alt="...">
+                                                <img src="assets/img/product_3.png" alt="...">
+                                                <img src="assets/img/product_2.png" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExample" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon bg-dark rounded-circle"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExample" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon bg-dark rounded-circle"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-sm-12 col-12 p-4 text-start">
+                                    <div class="fs-4">
+                                        Máy tính xách tay Apple MacBook Air (2020) M1 Chip, 13.3-inch,
+                                        8GB, 256GB SSD
+                                    </div>
+                                    <div class="pt-3 d-flex align-items-center img-start_op1">
+                                        <span class="fw-light">5.0</span>
+                                        <img src="assets/img/star.png" alt="">
+                                        <img src="assets/img/star.png" alt="">
+                                        <img src="assets/img/star.png" alt="">
+                                        <img src="assets/img/star.png" alt="">
+                                        <img src="assets/img/star.png" alt="">
+                                        <span style="padding-left: 7%">2,2k</span>
+                                        <span class="fw-light mx-1">Đánh giá</span>
+                                        <span style="padding-left: 7%">7,9k</span>
+                                        <span class="fw-light mx-1">Đã bán</span>
+                                        <span class="fw-light ms-auto">Tố cáo</span>
+                                    </div>
+                                    <div class="my-4 d-flex align-items-center justify-content-between div-sale">
+                                        <span></span>
+                                        <span class="text-decoration-line-through opacity-50 fs-5">₫28.990.000</span>
+                                        <span class="fs-2">₫19.290.000</span>
+                                        <span class="fs-5">33%
+                                            GIẢM</span>
+                                        <span></span>
+                                    </div>
+                                    <div class="container-fluid text-start">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-12">
+                                                Vận chuyển
+                                            </div>
+                                            <div class="col-lg-9 col-12">
+                                                <p>Xử lý đơn hàng bởi Shoop</p>
+                                                <p>Miễn phí vận chuyển</p>
+                                                <div class="d-inline-flex align-items-center">
+                                                    <span class="fw-light" style="width: 200px;">Vận Chuyển
+                                                        Tới</span>
+                                                    <select class="form-select border-0">
+                                                        <option value="1" selected>Huyện Ba Vì</option>
+                                                        <option value="2">Quận Đống Đa</option>
+                                                        <option value="3">Quận Bắc Từ Liêm</option>
+                                                    </select>
+                                                </div>
+                                                <br>
+                                                <div class="d-inline-flex align-items-center">
+                                                    <span class="fw-light" style="width: 225px;">Phí Vận Chuyển</span>
+                                                    <select class="form-select border-0">
+                                                        <option value="1" selected>0đ</option>
+                                                        <option value="2">15.000đ</option>
+                                                        <option value="3">50.000đ</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row my-2 align-items-center ">
+                                            <div class="col-lg-3 col-12">
+                                                Màu sắc
+                                            </div>
+                                            <div class="col-lg-9 col-12">
+                                                <input type="radio" class="btn-check" name="options-outlined" id="op-1"
+                                                    autocomplete="off" checked>
+                                                <label class="btn btn-outline-success" for="op-1">
+                                                    <img width="30px" src="assets/img/laptop.png" alt="">
+                                                    Gold
+                                                </label>
+    
+                                                <input type="radio" class="btn-check" name="options-outlined" id="op-2"
+                                                    autocomplete="off">
+                                                <label class="btn btn-outline-success" for="op-2">
+                                                    <img width="30px" src="assets/img/laptop.png" alt="">
+                                                    Silver
+                                                </label>
+    
+                                                <input type="radio" class="btn-check" name="options-outlined" id="op-3"
+                                                    autocomplete="off">
+                                                <label class="btn btn-outline-success" for="op-3">
+                                                    <img width="30px" src="assets/img/laptop.png" alt="">
+                                                    Space Gray
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row my-4  align-items-center">
+                                            <div class="col-lg-3 col-12">
+                                                Số lượng
+                                            </div>
+                                            <div class="col-lg-9 col-12 d-inline-flex align-items-center">
+                                                <button class="btn btn-outline-secondary opacity-50"
+                                                    onclick="decreaseValue()">-</button>
+                                                <input type="text" class="form-control text-center" id="numberInput" min="0"
+                                                    max="100" value="1" style="width: 70px;" readonly>
+                                                <button class="btn btn-outline-secondary opacity-50"
+                                                    onclick="increaseValue()">+</button>
+                                                <span class="fw-light mx-4">100 sản phẩm có sẵn</span>
+                                            </div>
+                                        </div>
+                                        <div class="row d-inline-flex">
+                                            <div class="col">
+                                                <button class="btn btn-outline-success px-3 btn-1">Thêm vào giỏ
+                                                    hàng</button>
+                                                <button class="btn btn-success mx-3 .btn-1">Mua ngay</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 px-7 mt-4">
+                    <div class="container-fluid bg-white">
+                        <div class="row h-100 align-items-center" id="info-shop">
+                            <div
+                                class="col-lg-1 col-sm-4 col-12 mx-4 py-3 d-flex align-items-center justify-content-center">
+                                <div class="rounded-circle" id="avatar-shop">
+                                    A</div>
+                            </div>
+                            <div class="col-lg-2 col-sm-6 col-12 py-3 text-start">
+                                Apple Flagship Store <br>
+                                <p class="fw-light">Online 15 Giờ Trước</p>
+                                <button class="btn btn-outline-success">Chat Ngay</button>
+                                <button class="btn btn-outline-secondary">Xem Shop</button>
+                            </div>
+                            <div class="col-lg-1 col-sm-3 col-5 py-3 text-start">
+                                Đánh giá
+                                <br><br>
+                                Sản phẩm
+                            </div>
+                            <div class="col-lg-1 col-sm-3 col-5 py-3 text-end info-shop_text1">
+                                67,6k
+                                <br><br>
+                                300
+                            </div>
+                            <div class="col-lg-2 col-sm-3 col-5 py-3 text-start">
+                                Tỷ lệ phản hồi
+                                <br><br>
+                                Thời gian phản hồi
+                            </div>
+                            <div class="col-lg-1 col-sm-3 col-5 py-3 text-end info-shop_text1">
+                                100%
+                                <br><br>
+                                trong vài giờ
+                            </div>
+                            <div class="col-lg-1 col-sm-3 col-5 py-3 text-start">
+                                Tham gia
+                                <br><br>
+                                Người theo dõi
+                            </div>
+                            <div class="col-lg-1 col-sm-3 col-5 py-3 text-end info-shop_text1">
+                                5 năm trước
+                                <br><br>
+                                588k
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 px-7 mt-4">
+                    <div class="container-fluid text-start bg-white">
+                        <div class="row p-3">
+                            <div class="col-12 p-3 fs-4 mb-4 bg-f9f9f9">
+                                CHI TIẾT SẢN PHẨM
+                            </div>
+                            <div class="col-lg-2 col-sm-3 col-4 fw-light">
+                                <p>Danh mục</p>
+                                <p>Thương hiệu</p>
+                                <p>Loại laptop</p>
+                                <p>Kho hàng</p>
+                                <p>Gửi từ</p>
+                            </div>
+                            <div class="col-lg-10 col-sm-9 col-8">
+                                <p>
+                                    <span class="font-color_green">Shop / Máy tính &
+                                        Laptop / Laptop</span>
+                                </p>
+                                <p><span class="font-color_green">Apple</span></p>
+                                <p>Khác</p>
+                                <p>180</p>
+                                <p>Bắc Ninh</p>
+                            </div>
+    
+                            <div class="col-12 p-3 fs-4 mb-4 bg-f9f9f9">
+                                MÔ TẢ SẢN PHẨM
+                            </div>
+                            <div class="col-12">
+                                <p>Máy tính xách tay mỏng và nhẹ nhất của Apple, nay siêu mạnh mẽ với chip Apple M1. Xử lý
+                                    công việc giúp bạn với CPU 8 lõi nhanh như chớp. Đưa các ứng dụng và game có đồ họa
+                                    khủng lên một tầm cao mới với GPU 7 lõi. Đồng thời, tăng tốc các tác vụ máy học với
+                                    Neural Engine 16 lõi. Tất cả gói gọn trong một thiết kế không quạt, giảm thiểu tiếng ồn,
+                                    thời lượng pin dài nhất từ trước đến nay lên đến 18 giờ (1) MacBook Air. Vẫn cực kỳ cơ
+                                    động. Mà mạnh mẽ hơn nhiều.</p>
+                                <p>Tính năng nổi bật
+                                    <br>• Chip M1 do Apple thiết kế tạo ra một cú nhảy vọt về hiệu năng máy học, CPU và GPU
+                                    <br>• Tăng thời gian sử dụng với thời lượng pin lên đến 18 giờ (1)
+                                    <br>• CPU 8 lõi cho tốc độ nhanh hơn đến 3.5x, xử lý công việc nhanh chóng hơn bao giờ
+                                    hết
+                                    (2)
+                                    <br>• GPU lên đến 7 lõi với tốc độ xử lý đồ họa nhanh hơn đến 5x cho các ứng dụng và
+                                    game đồ
+                                    họa khủng (2)
+                                    <br>• Neural Engine 16 lõi cho công nghệ máy học hiện đại
+                                    <br>• Bộ nhớ thống nhất 8GB giúp bạn làm việc gì cũng nhanh chóng và trôi chảy
+                                    <br>• Ổ lưu trữ SSD siêu nhanh giúp mở các ứng dụng và tập tin chỉ trong tích tắc
+                                    <br>• Thiết kế không quạt giảm tối đa tiếng ồn khi sử dụng
+                                    <br>• Màn hình Retina 13.3 inch với dải màu rộng P3 cho hình ảnh sống động và chi tiết
+                                    ấn
+                                    tượng (3)
+                                    <br>• Camera FaceTime HD với bộ xử lý tín hiệu hình ảnh tiên tiến cho các cuộc gọi video
+                                    đẹp
+                                    hình, rõ tiếng hơn
+                                    <br>• Bộ ba micro phối hợp tập trung thu giọng nói của bạn, không thu tạp âm môi trường
+                                    <br>• Wi-Fi 6 thế hệ mới giúp kết nối nhanh hơn
+                                    <br>• Hai cổng Thunderbolt / USB 4 để sạc và kết nối phụ kiện
+                                    <br>• Bàn phím Magic Keyboard có đèn nền và Touch ID giúp mở khóa và thanh toán an toàn
+                                    hơn
+                                    <br>• macOS Big Sur với thiết kế mới đầy táo bạo cùng nhiều cập nhật quan trọng cho các
+                                    ứng
+                                    dụng Safari, Messages và Maps
+                                    <br>• Hiện có màu vàng kim, xám bạc và bạc
+                                </p>
+                                <p>Pháp lý
+                                    <br>Hiện có sẵn các lựa chọn để nâng cấp.
+                                    <br>(1) Thời lượng pin khác nhau tùy theo cách sử dụng và cấu hình. Truy cập
+                                    apple.com/batteries để biết thêm thông tin.
+                                    <br>(2) So với thế hệ máy trước.
+                                    <br>(3) Kích thước màn hình tính theo đường chéo.
+                                </p>
+                                <p>Thông tin bảo hành:
+                                    <br>Bảo hành: 12 tháng kể từ ngày kích hoạt sản phẩm.
+                                    <br>Kích hoạt bảo hành tại: <a href="https://checkcoverage.apple.com/vn/en/"
+                                        class="a-black">https://checkcoverage.apple.com/vn/en/</a>
+                                </p>
+                                <p>Hướng dẫn kiểm tra địa điểm bảo hành gần nhất:
+                                    <br>Bước 1: Truy cập vào đường link
+                                    <a href="https://getsupport.apple.com/?caller=grl&locale=en_VN"
+                                        class="a-black">https://getsupport.apple.com/?caller=grl&locale=en_VN</a>
+                                    <br>Bước 2: Chọn sản phẩm.
+                                    <br>Bước 3: Điền Apple ID, nhập mật khẩu.
+                                    <br>Sau khi hoàn tất, hệ thống sẽ gợi ý những trung tâm bảo hành gần nhất.
+                                </p>
+                                <p>Tại Việt Nam, về chính sách bảo hành và đổi trả của Apple, "sẽ được áp dụng chung" theo
+                                    các điều khoản được liệt kê dưới đây:
+                                    <br>1) Chính sách chung:
+                                    <a href="https://www.apple.com/legal/warranty/products/warranty-rest-of-apac-vietnamese.html"
+                                        class="a-black">https://www.apple.com/legal/warranty/products/warranty-rest-of-apac-vietnamese.html</a>
+                                    <br>2) Chính sách cho phụ kiện:
+                                    <a href="https://www.apple.com/legal/warranty/products/accessory-warranty-vietnam.html"
+                                        class="a-black">https://www.apple.com/legal/warranty/products/accessory-warranty-vietnam.html</a>
+                                    <br>3) Các trung tâm bảo hành Apple ủy quyền tại Việt Nam:
+                                    <a href="https://getsupport.apple.com/repair-locations?locale=vi_VN"
+                                        class="a-black">https://getsupport.apple.com/repair-locations?locale=vi_VN</a>
+                                    <br>Qúy khách vui lòng đọc kỹ hướng dẫn và quy định trên các trang được Apple công bố
+                                    công
+                                    khai, Shop chỉ có thể hỗ trợ theo đúng chính sách được đăng công khai của thương hiệu
+                                    Apple tại Việt Nam,
+                                </p>
+                                <p>Bài viết tham khảo chính sách hỗ trợ của nhà phân phối tiêu biểu:
+                                    <br><a
+                                        href="https://synnexfpt.com/bao-hanh/chinh-sach-bao-hanh/?agency-group=1&agency-slug=san-pham-apple"
+                                        class="a-black">https://synnexfpt.com/bao-hanh/chinh-sach-bao-hanh/?agency-group=1&agency-slug=san-pham-apple</a>
+                                </p>
+                                <p> Để thuận tiện hơn trong việc xử lý khiếu nại, đơn hàng của Brand Apple thường có giá trị
+                                    cao, Qúy khách mua hàng vui lòng quay lại Clip khui mở kiện hàng (khách quan nhất có
+                                    thể, đủ 6 mặt) giúp Shopee có thêm căn cứ để làm việc với các bên và đẩy nhanh tiến độ
+                                    xử lý giúp Qúy khách mua hàng.</p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col-12 px-7 mt-4">
+                    <div class="container-fluid text-start bg-white">
+                        <div class="row p-3">
+                            <div class="col-12 fs-4">
+                                ĐÁNH GIÁ SẢN PHẨM
+                            </div>
+                            <div class="col-12 p-3 mb-3">
+                                <div class="container-fluid py-3 bg-f2f8f2">
+                                    <div class="row h-100 d-flex align-items-center">
+                                        <div class="col-xl-2 col-lg-3 col-sm-4 col-6 text-center font-color_green">
+                                            <span class="fs-1">5.0</span>
+                                            <span class="fs-4 px-2">trên 5</span>
+                                            <br>
+                                            <img height="25px" src="assets/img/star.png" alt="">
+                                            <img height="25px" src="assets/img/star.png" alt="">
+                                            <img height="25px" src="assets/img/star.png" alt="">
+                                            <img height="25px" src="assets/img/star.png" alt="">
+                                            <img height="25px" src="assets/img/star.png" alt="">
+                                        </div>
+                                        <div class="col">
+                                            <input type="radio" class="btn-check" name="options-outlined" id="op-rating-1"
+                                                autocomplete="off" checked>
+                                            <label class="btn btn-outline-success m-2" for="op-rating-1">
+                                                Tất cả
+                                            </label>
+                                            <input type="radio" class="btn-check" name="options-outlined" id="op-rating-2"
+                                                autocomplete="off">
+                                            <label class="btn btn-outline-success m-2" for="op-rating-2">
+                                                5 sao (2,1k)
+                                            </label>
+                                            <input type="radio" class="btn-check" name="options-outlined" id="op-rating-3"
+                                                autocomplete="off">
+                                            <label class="btn btn-outline-success m-2" for="op-rating-3">
+                                                4 sao (31)
+                                            </label>
+                                            <input type="radio" class="btn-check" name="options-outlined" id="op-rating-4"
+                                                autocomplete="off">
+                                            <label class="btn btn-outline-success m-2" for="op-rating-4">
+                                                3 sao (31)
+                                            </label>
+                                            <input type="radio" class="btn-check" name="options-outlined" id="op-rating-5"
+                                                autocomplete="off">
+                                            <label class="btn btn-outline-success m-2" for="op-rating-5">
+                                                2 sao (31)
+                                            </label>
+                                            <input type="radio" class="btn-check" name="options-outlined" id="op-rating-6"
+                                                autocomplete="off">
+                                            <label class="btn btn-outline-success m-2" for="op-rating-6">
+                                                1 sao (31)
+                                            </label>
+                                            <input type="radio" class="btn-check" name="options-outlined" id="op-rating-7"
+                                                autocomplete="off">
+                                            <label class="btn btn-outline-success m-2" for="op-rating-7">
+                                                Có bình luận (31)
+                                            </label>
+                                            <input type="radio" class="btn-check" name="options-outlined" id="op-rating-8"
+                                                autocomplete="off">
+                                            <label class="btn btn-outline-success m-2" for="op-rating-8">
+                                                Có Hình Ảnh / Video (739)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1 text-center avatar-user">
+                                <div class="rounded-circle">
+                                    A</div>
+                            </div>
+                            <div class="col-11">
+                                dangquochan
+                                <br>
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <br>
+                                <p class="fw-light">2022-03-31 20:45 | Phân loại hàng: Space Gray</p>
+                                <p>Máy mỏng nhẹ, lướt nhanh. Shop đóng gói kỹ, đặt 12h thứ 6 mà 9h sáng thứ 7 đã nhận được,
+                                    xuất sắc shop ơi.</p>
+                                <img class="py-2 mx-2" width="90px" src="assets/img/preview.png" alt="">
+                                <img class="py-2 mx-2" width="90px" src="assets/img/preview.png" alt="">
+                                <img class="py-2 mx-2" width="90px" src="assets/img/preview.png" alt="">
+                                <img class="py-2 mx-2" width="90px" src="assets/img/preview.png" alt="">
+                            </div>
+                            <div class="mt-4 px-3 opacity-50">
+                                <hr>
+                            </div>
+                            <div class="col-1 text-center avatar-user">
+                                <div class="rounded-circle">
+                                    A</div>
+                            </div>
+                            <div class="col-11">
+                                dangquochan
+                                <br>
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <br>
+                                <p class="fw-light">2022-03-31 20:45 | Phân loại hàng: Space Gray</p>
+                                <p>Máy mỏng nhẹ, lướt nhanh. Shop đóng gói kỹ, đặt 12h thứ 6 mà 9h sáng thứ 7 đã nhận được,
+                                    xuất sắc shop ơi.</p>
+                                <img class="py-2 mx-2" width="90px" src="assets/img/preview.png" alt="">
+                                <img class="py-2 mx-2" width="90px" src="assets/img/preview.png" alt="">
+                                <img class="py-2 mx-2" width="90px" src="assets/img/preview.png" alt="">
+                                <img class="py-2 mx-2" width="90px" src="assets/img/preview.png" alt="">
+                            </div>
+                            <div class="mt-4 px-3 opacity-50">
+                                <hr>
+                            </div>
+                            <div class="col-1 text-center avatar-user">
+                                <div class="rounded-circle">
+                                    A</div>
+                            </div>
+                            <div class="col-11">
+                                dangquochan
+                                <br>
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <img height="15px" src="assets/img/star.png" alt="">
+                                <br>
+                                <p class="fw-light">2022-03-31 20:45 | Phân loại hàng: Space Gray</p>
+                                <p>Máy mỏng nhẹ, lướt nhanh. Shop đóng gói kỹ, đặt 12h thứ 6 mà 9h sáng thứ 7 đã nhận được,
+                                    xuất sắc shop ơi.</p>
+                                <img class="py-2 mx-2" width="90px" src="assets/img/preview.png" alt="">
+                                <img class="py-2 mx-2" width="90px" src="assets/img/preview.png" alt="">
+                                <img class="py-2 mx-2" width="90px" src="assets/img/preview.png" alt="">
+                                <img class="py-2 mx-2" width="90px" src="assets/img/preview.png" alt="">
+                            </div>
+                            <div class="mt-4 px-3 opacity-50">
+                                <hr>
+                            </div>
+                            <div class="col-12 mt-5">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-end">
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 px-7 mt-4">
+                    <div class="container-fluid text-start bg-white">
+                        <div class="row pt-3 fs-4 px-4">
+                            CÁC SẢN PHẨM KHÁC CỦA SHOOP
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                <div class="row p-3 text-start">
+                                    <a class="a-black" href="detail-product.html">Áo Sweater The Bad God <br>Signature
+                                        Monogram</a>
+                                </div>
+                                <div class="row px-3">
+                                    <div class="col-lg-6 col-md-12 text-start">
+                                        <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                        <p class="font-color_red">₫339.000</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                        <div
+                                            class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                            <a class="" href="#">
+                                                <i class="bi bi-cart2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                <div class="row p-3 text-start">
+                                    <a class="a-black" href="detail-product.html">Áo Sweater The Bad God <br>Signature
+                                        Monogram</a>
+                                </div>
+                                <div class="row px-3">
+                                    <div class="col-lg-6 col-md-12 text-start">
+                                        <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                        <p class="font-color_red">₫339.000</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                        <div
+                                            class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                            <a class="" href="#">
+                                                <i class="bi bi-cart2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                <div class="row p-3 text-start">
+                                    <a class="a-black" href="detail-product.html">Áo Sweater The Bad God <br>Signature
+                                        Monogram</a>
+                                </div>
+                                <div class="row px-3">
+                                    <div class="col-lg-6 col-md-12 text-start">
+                                        <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                        <p class="font-color_red">₫339.000</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                        <div
+                                            class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                            <a class="" href="#">
+                                                <i class="bi bi-cart2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                <div class="row p-3 text-start">
+                                    <a class="a-black" href="detail-product.html">Áo Sweater The Bad God <br>Signature
+                                        Monogram</a>
+                                </div>
+                                <div class="row px-3">
+                                    <div class="col-lg-6 col-md-12 text-start">
+                                        <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                        <p class="font-color_red">₫339.000</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                        <div
+                                            class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                            <a class="" href="#">
+                                                <i class="bi bi-cart2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4 bg-e0e0e0">
+                <div class="col-12 text-start px-7 bg-white">
+                    <div class="fw-bolder fs-5 my-4">Có Thể Bạn Đang Tìm Kiếm</div>
+                    <div class="fs-5">bàn phím cơ ajazz ac067 | màn hình máy tính dell ultrasharp u2422h | ổ cứng hdd 500gb
+                        | bàn phím
+                        tiếng trung | ổ cứng
+                        samsung pm9a1 | micro cài áo không dây | thanh lăn mắt | máy tính bảng realme | bảng vẽ điện tử
+                        wacom cintiq 16 | máy
+                        đo thân nhiệt | razer | laptop gaming | lenovo legion 5 | chuột | usb</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container-fluid text-center">
+            <div class="row align-items-center px-7 bg-fdfaf7">
+                <div class="container-fluid mt-5">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6 col-12 py-3 text-start">
+                            <p class="fw-bolder">CHĂM SÓC KHÁCH HÀNG</p>
+                            <p class="fw-light a-light">
+                                <a href="#">Trung Tâm Trợ Giúp</a><br>
+                                <a href="#">Shoop Blog</a><br>
+                                <a href="#">Hướng Dẫn Mua Hàng</a><br>
+                                <a href="#">Hướng Dẫn Bán Hàng</a><br>
+                                <a href="#">Thanh Toán</a><br>
+                                <a href="#">Trả Hàng & Hoàn Tiền</a><br>
+                                <a href="#">Chăm Sóc Khách Hàng</a><br>
+                                <a href="#">Chính Sách Bảo Hành</a><br>
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 py-3 text-start">
+                            <p class="fw-bolder">VỀ SHOOP</p>
+                            <p class="fw-light a-light">
+                                <a href="#">Giới Thiệu Về Shoop Việt Nam</a><br>
+                                <a href="#">Tuyển Dụng</a><br>
+                                <a href="#">Điều Khoản Shoop</a><br>
+                                <a href="#">Chính Sách Bảo Mật</a><br>
+                                <a href="#">Kênh Người Bán</a><br>
+                                <a href="#">Liên Hệ Với Truyền Thông</a><br>
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 py-3 text-start div-pay">
+                            <p class="fw-bolder">THANH TOÁN</p>
+                            <img src="assets/img/pay_1.png" alt="">
+                            <img src="assets/img/pay_2.png" alt="">
+                            <img src="assets/img/pay_3.png" alt="">
+                            <img src="assets/img/pay_4.png" alt="">
+                            <img src="assets/img/pay_5.png" alt="">
+                            <img src="assets/img/pay_6.png" alt="">
+                            <img src="assets/img/pay_8.png" alt="">
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 py-3 text-start">
+                            <p class="fw-bolder">THEO DÕI CHÚNG TÔI TRÊN</p>
+                            <p class="fw-light a-light">
+                                <a href="#">Facebook</a><br>
+                                <a href="#">Instagram</a><br>
+                                <a href="#">LinkedIn</a><br>
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row py-4 px-7">
+                        <div class="col-4 text-start fw-light">
+                            Ⓒ 2024 Shoop. Tất cả các quyền được bảo lưu
+                        </div>
+                        <div class="col-8 text-end fw-light px-7">
+                            Quốc gia & Khu vực: Sigapore | Indonesia | Thái Lan | Malaysia | Việt Nam | Philippines
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row py-4 fw-light px-7">
+                        Địa chỉ: Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình, Thành
+                        phố Hà
+                        Nội, Việt Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shoop.vn
+                        <br>Ⓒ 2015 - Bản quyền thuộc về Công ty TNHH Shoop
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script>
+        function increaseValue() {
+            var input = document.getElementById('numberInput');
+            var value = parseInt(input.value, 10);
+            if (value < parseInt(input.max, 10)) {
+                input.value = value + 1;
+            }
+        }
+
+        function decreaseValue() {
+            var input = document.getElementById('numberInput');
+            var value = parseInt(input.value, 10);
+            if (value > parseInt(input.min, 10)) {
+                input.value = value - 1;
+            }
+        }
+    </script>
+</body>
+
+</html>

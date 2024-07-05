@@ -1,0 +1,46 @@
+.font-color_green {
+    color: #007006;
+}
+.img-start_op1 img{
+    height: 15px; 
+    margin-left: 3px;
+}
+.div-sale{
+    background-color: #f9f9f9; 
+    height: 70px;
+}
+.div-sale .fs-2{
+    color: #007006;
+}
+.div-sale .fs-5{
+    color: white; 
+    background-color: #007006;
+}
+.btn-1{
+    width: auto;  
+    height: 50px;
+}
+#avatar-shop{
+    color: white; 
+    background-color: #007006; 
+    width: 90px; 
+    height: 90px; 
+    font-size: 50px;
+}
+#info-shop .info-shop_text1{
+    color: #007006; 
+    margin-right: 30px;
+}
+.avatar-user{
+    width: 40px; 
+    padding: 0px; 
+    margin-left: 15px; 
+    margin-right: 5px;
+}
+.avatar-user>div{
+    color: white; 
+    background-color: #007006; 
+    width: 40px; 
+    height: 40px; 
+    font-size: 25px;
+}

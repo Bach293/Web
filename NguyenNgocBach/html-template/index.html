@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoop - Nền tảng website bán hàng số 1 Việt Nam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="assets/img/logo.png" sizes="30x30" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <nav class="row navbar navbar-expand-lg px-7 a-white menu-navbar">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="login.html">Kênh người bán</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sign-up.html">Trở thành người bán hàng</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Thông báo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hỗ trợ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Đăng ký</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Đăng nhập</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="row align-items-center px-7 py-3 h-100">
+                    <div class="col-3 text-start">
+                        <img src="assets/img/logo.png" alt="" class="d-block w-75">
+                    </div>
+                    <div class="col-7 text-center input-container" style="transform: translateY(80%);">
+                        <input type="text" class="form-control">
+                        <button type="button" class="btn btn-success"><i class="bi bi-search"></i></button>
+                    </div>
+                    <div class="col-2">
+                        <a href="#" class="a-black">
+                            <i class="bi bi-cart4 fs-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main -->
+    <main>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="container-fluid container-fluid-main">
+                    <div class="row">
+                        <div class="col-12 px-7 d-flex justify-content-center mt-5">
+                            <div class="container-fluid" style="background-color: white;">
+                                <div id="carouselExampleRide" class="row carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner" style="padding: 0;">
+                                        <div class="carousel-item active" data-bs-interval="3000">
+                                            <img src="assets/img/slider1.png" class="d-block w-100 h-auto" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="assets/img/slider1.png" class="d-block w-100 h-auto" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="assets/img/slider1.png" class="d-block w-100 h-auto" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row align-items-center">
+                                    <div class="col-lg-1 col-sm-2 col-3">
+                                        <img class="d-block w-100 h-auto" src="assets/img/slider2.png" alt="">
+                                    </div>
+                                    <div class="col-lg-3 col-sm-4 col-9 text-start">
+                                        <span>7 ngày miễn phí trả hàng</span>
+                                        <br>
+                                        <span class="fw-light font_small">Trả hàng miễn phí trong 7
+                                            ngày</span>
+                                    </div>
+                                    <div class="col-lg-1 col-sm-2 col-3">
+                                        <img class="d-block w-100 h-auto" src="assets/img/slider3.png" alt="">
+                                    </div>
+                                    <div class="col-lg-3 col-sm-4 col-9 text-start">
+                                        <span>Hàng chính hãng 100%</span>
+                                        <br>
+                                        <span class="fw-light font_small">Đảm bảo hàng chính hãng hoặc hoàn
+                                            tiền
+                                            gấp đôi</span>
+                                    </div>
+                                    <div class="col-lg-1 col-sm-2 col-3">
+                                        <img class="d-block w-100 h-auto" src="assets/img/slider4.png" alt="">
+                                    </div>
+                                    <div class="col-lg-3 col-sm-4 col-9 text-start">
+                                        <span>Miễn phí vận chuyển</span>
+                                        <br>
+                                        <span class="fw-light font_small">Giao miễn phí toàn quốc</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row px-7">
+                        <div class="col-12 mt-5" style="background-color: white;">
+                            <div class="container-fluid">
+                                <div class="row text-start fw-bolder py-3 px-3">
+                                    DANH MỤC
+                                </div>
+                                <div class="row d-flex justify-content-between">
+                                    <div class="col-lg-1 col-sm-2 col-3">
+                                        <img class="d-block w-100 h-auto" src="assets/img/index_category1.png" alt="">
+                                        Thể thao & du lịch
+                                    </div>
+                                    <div class="col-lg-1 col-sm-2 col-3">
+                                        <img class="d-block w-100 h-auto" src="assets/img/index_category2.png" alt="">
+                                        Thời trang nam
+                                    </div>
+                                    <div class="col-lg-1 col-sm-2 col-3">
+                                        <img class="d-block w-100 h-auto" src="assets/img/index_category3.png" alt="">
+                                        Điện thoại & phụ kiện
+                                    </div>
+                                    <div class="col-lg-1 col-sm-2 col-3">
+                                        <img class="d-block w-100 h-auto" src="assets/img/index_category4.png" alt="">
+                                        Thiết bị điện tử
+                                    </div>
+                                    <div class="col-lg-1 col-sm-2 col-3">
+                                        <img class="d-block w-100 h-auto" src="assets/img/index_category5.png" alt="">
+                                        Máy tính & laptop
+                                    </div>
+                                    <div class="col-lg-1 col-sm-2 col-3">
+                                        <img class="d-block w-100 h-auto" src="assets/img/index_category6.png" alt="">
+                                        Đồng hồ
+                                    </div>
+                                    <div class="col-lg-1 col-sm-2 col-3">
+                                        <img class="d-block w-100 h-auto" src="assets/img/index_category7.png" alt="">
+                                        Thời trang nữ
+                                    </div>
+                                    <div class="col-lg-1 col-sm-2 col-3">
+                                        <img class="d-block w-100 h-auto" src="assets/img/index_category8.png" alt="">
+                                        Sức khỏe
+                                    </div>
+                                    <div class="col-lg-1 col-sm-2 col-3">
+
+                                        <img class="d-block w-100 h-auto" src="assets/img/index_category9.png" alt="">
+                                        Thiết bị đồ gia dụng
+                                    </div>
+                                    <div class="col-lg-1 col-sm-2 col-3">
+                                        <img class="d-block w-100 h-auto" src="assets/img/index_category10.png" alt="">
+                                        Đồ chơi
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <img class="d-block w-100 mt-3" src="assets/img/index_1.png" alt="">
+                                </div>
+                                <div class="row fw-bolder py-3 fs-4 px-3">
+                                    THƯƠNG HIỆU NỔI BẬT
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <img class="d-block w-100 h-auto" src="assets/img/index_2.png" alt="">
+                                </div>
+                                <div class="row fw-bolder py-3 fs-4 px-3">
+                                    ƯU ĐÃI SHOOP
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <img class="d-block w-100 h-auto" src="assets/img/index_3.png" alt="">
+                                </div>
+                                <div class="row fw-bolder py-3 fs-4 px-3">
+                                    GỢI Ý HÔM NAY
+                                </div>
+                                <hr class="border border-success border-3 opacity-75 my-0">
+                                <div class="row">
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 col-6 p-4 products">
+                                        <img class="d-block w-100 h-auto" src="assets/img/avatar_product.png" alt="">
+                                        <div class="row p-3 text-start">
+                                            <a class="a-black" href="detail-product.html">Áo Sweater The Bad God
+                                                <br>Signature Monogram</a>
+                                        </div>
+                                        <div class="row px-3">
+                                            <div class="col-lg-6 col-md-12 text-start">
+                                                <p class="text-decoration-line-through fw-light">₫500.000</p>
+                                                <p class="font-color_red">₫339.000</p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 justify-content-end d-flex">
+                                                <div
+                                                    class="bg-success rounded-circle a-white align-items-center justify-content-center d-flex">
+                                                    <a class="" href="#">
+                                                        <i class="bi bi-cart2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <hr class="border border-success border-3 opacity-75 my-0">
+                <div class="col-12 text-start px-7 pt-5">
+                    <p class="fw-bolder">SHOOP - GÌ CŨNG CÓ, MUA HẾT Ở SHOOP</p>
+                    <p><b>Shoop</b> - ứng dụng mua sắm trực tuyến thú vị, tin cậy, an toàn và miễn phí! Shoop là nền
+                        tảng
+                        giao dịch trực tuyến hàng đầu ở Đông Nam Á, có trụ sở chính ở Singapore, đã có
+                        mặt ở khắp các khu vực Singapore, Malaysia, Indonesia, Thái Lan, Philippines. Với sự đảm bảo của
+                        Shoop, bạn sẽ mua hàng trực tuyến an tâm và nhanh chóng hơn bao giờ hết!</p>
+                    <p class="fw-bolder">MUA SẮM VÀ BÁN HÀNG ONLINE ĐƠN GIẢN, NHANH CHÓNG VÀ AN TOÀN</p>
+                    <p>Nếu bạn đang tìm kiếm một trang web để mua và bán hàng trực tuyến thì Shoop.vn là một sự lựa chọn
+                        tuyệt vời dành cho bạn. Shoop là trang thương mại điện tử cho phép
+                        người mua và người bán tương tác và trao đổi dễ dàng thông tin về sản phẩm và chương trình
+                        khuyến
+                        mãi của shop. Do đó, việc mua bán trên Shoop trở nên nhanh chóng và
+                        đơn giản hơn. Bạn có thể trò chuyện trực tiếp với nhà bán hàng để hỏi trực tiếp về mặt hàng cần
+                        mua.
+                        Còn nếu bạn muốn tìm mua những dòng sản phẩm chính hãng, uy tín,
+                        Shoop chính là sự lựa chọn lí tưởng dành cho bạn. Để bạn có thể dễ dàng khi tìm hiểu và sử dụng
+                        sản
+                        phẩm, Shoop Blog - trang blog thông tin chính thức của Shoop -
+                        sẽ giúp bạn có thể tìm được cho mình các kiến thức về xu hướng thời trang, review công nghệ, mẹo
+                        làm
+                        đẹp, tin tức tiêu dùng và deal giá tốt bất ngờ.</p>
+                    <p>Đến với Shoop, cơ hội để trở thành một nhà bán hàng dễ dàng hơn bao giờ hết. Chỉ với vài thao tác
+                        trên ứng dụng, bạn đã có thể đăng bán ngay những sản phẩm của mình.
+                        Không những thế, các nhà bán hàng có thể tự tạo chương trình khuyến mãi trên Shoop để thu hút
+                        người
+                        mua với những sản phẩm có mức giá hấp dẫn. Khi đăng nhập tại
+                        Shoop Kênh người bán, bạn có thể dễ dàng phân loại sản phẩm, theo dõi đơn hàng, chăm sóc khách
+                        hàng
+                        và cập nhập ngay các hoạt động của shop.</p>
+                    <p>Bên cạnh đó, Shoop hợp tác với nhiều đơn vị vận chuyển uy tín trên thị trường như SPX,... nhằm
+                        cung
+                        cấp dịch vu giao nhận và vận chuyển tiện lợi cho cả khách hàng và
+                        người bán. Cùng với nhiều ưu đãi với chi phí giao hàng hợp lý, Shoop đảm bảo cho khách hàng trải
+                        nghiệm mua sắm thuận tiện nhất.</p>
+                    <p class="fw-bolder">TOP TỪ KHÓA XU HƯỚNG</p>
+                    <p>pandora | vaseline | trang trí tết | máy nước nóng trực tiếp | vợt cầu lông | dexeryl | vascara |
+                        myherbalife | hasaki | flower knows | avakids | đèn sưởi nhà tắm | kem nẻ |
+                        kidsplaza | vnb | wind breaker | ghế massage toàn thân | pin | thỏi vàng | concung | móng tay
+                        đẹp |
+                        bao cao su | yonex | truyện tranh đam mỹ | tô tượng | lego | memoryzone |
+                        mwc | gấu dâu | ivy moda</p>
+                    <hr class="my-5">
+                    <p class="fw-bolder">Danh mục</p>
+                    <div class="container-fluid">
+                        <div class="row" style="font-size: 13px;">
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <p><b>THỜI TRANG NAM</b></p>
+                                <p>Áo Khoác | Áo Vest và Blazer | Áo
+                                    Hoodie, Áo Len & Áo Nỉ | Quần Jeans |
+                                    Quần Dài/Quần Âu | Quần Short | Áo |
+                                    Áo Ba Lỗ | Đồ Lót | Đồ Ngủ | Đồ Bộ |
+                                    Vớ/Tất | Trang PhụcTruyền Thống |
+                                    Đồ Hóa Trang | Trang Phục Ngành
+                                    Nghề | Khác | Trang Sức Nam | Kính
+                                    Mắt Nam | Thắt Lưng Nam | Cà vạt &
+                                    Nơ cổ | Phụ Kiện Nam</p>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <p><b>THỜI TRANG NỮ</b></p>
+                                <p>Quần | Quần đùi | Chân váy | Quần
+                                    jeans | Đầm/Váy | Váy cưới | Đồ liền
+                                    thân | Áo khoác, Áo choàng & Vest |
+                                    Áo len & Cardigan | Hoodie và Áo nỉ |
+                                    Bộ | Đồ lót | Đồ ngủ | Áo | Đồ tập | Đồ
+                                    Bầu | Đồ truyền thống | Đồ hóa trang |
+                                    Vải | Vớ/ Tất | Khác</p>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <p><b>ĐIỆN THOẠI & PHỤ KIỆN</b></p>
+                                <p>Điện thoại | Máy tính bảng | Pin Dự
+                                    Phòng | Pin Gắn Trong, Cáp và Bộ Sạc
+                                    | Ốp lưng, bao da, Miếng dán điện
+                                    thoại | Bảo vệ màn hình | Đế giữ điện
+                                    thoại | Thẻ nhớ | Sim | Phụ kiện khác |
+                                    Thiết bị khác</p>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <p><b>THIẾT BỊ ĐIỆN TỬ</b></p>
+                                <p>Thiết bị đeo thông minh | Phụ kiện tivi |
+                                    Máy Game Console | Phụ kiện Console
+                                    | Đĩa game | Linh phụ kiện | Tai nghe
+                                    nhét tai | Loa | Tivi | Tivi Box |
+                                    Headphones</p>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <p><b>SỨC KHỎE</b></p>
+                                <p>Vật tư y tế | Chống muỗi & xua đuổi côn
+                                    trùng | Thực phẩm chức năng | Tã người
+                                    lớn | Hỗ trợ làm đẹp | Hỗ trợ tình dục |
+                                    Dụng cụ massage và trị liệu | Khác</p>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <p><b>ĐỒNG HỒ</b></p>
+                                <p>Đồng Hồ Nam | Đồng Hồ Nữ | Bộ Đồng
+                                    Hồ & Đồng Hồ Cặp | Đồng Hồ Trẻ Em |
+                                    Phụ Kiện Đồng Hồ | Khác</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container-fluid text-center">
+            <div class="row align-items-center px-7" style="background-color: #fdfaf7;">
+                <div class="container-fluid mt-5">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6 col-12 py-3 text-start">
+                            <p class="fw-bolder">CHĂM SÓC KHÁCH HÀNG</p>
+                            <p class="fw-light a-light">
+                                <a href="#">Trung Tâm Trợ Giúp</a><br>
+                                <a href="#">Shoop Blog</a><br>
+                                <a href="#">Hướng Dẫn Mua Hàng</a><br>
+                                <a href="#">Hướng Dẫn Bán Hàng</a><br>
+                                <a href="#">Thanh Toán</a><br>
+                                <a href="#">Trả Hàng & Hoàn Tiền</a><br>
+                                <a href="#">Chăm Sóc Khách Hàng</a><br>
+                                <a href="#">Chính Sách Bảo Hành</a><br>
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 py-3 text-start">
+                            <p class="fw-bolder">VỀ SHOOP</p>
+                            <p class="fw-light a-light">
+                                <a href="#">Giới Thiệu Về Shoop Việt Nam</a><br>
+                                <a href="#">Tuyển Dụng</a><br>
+                                <a href="#">Điều Khoản Shoop</a><br>
+                                <a href="#">Chính Sách Bảo Mật</a><br>
+                                <a href="#">Kênh Người Bán</a><br>
+                                <a href="#">Liên Hệ Với Truyền Thông</a><br>
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 py-3 text-start div-pay">
+                            <p class="fw-bolder">THANH TOÁN</p>
+                            <img src="assets/img/pay_1.png" alt="">
+                            <img src="assets/img/pay_2.png" alt="">
+                            <img src="assets/img/pay_3.png" alt="">
+                            <img src="assets/img/pay_4.png" alt="">
+                            <img src="assets/img/pay_5.png" alt="">
+                            <img src="assets/img/pay_6.png" alt="">
+                            <img src="assets/img/pay_8.png" alt="">
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 py-3 text-start">
+                            <p class="fw-bolder">THEO DÕI CHÚNG TÔI TRÊN</p>
+                            <p class="fw-light a-light">
+                                <a href="#">Facebook</a><br>
+                                <a href="#">Instagram</a><br>
+                                <a href="#">LinkedIn</a><br>
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row py-4 px-7">
+                        <div class="col-4 text-start fw-light">
+                            Ⓒ 2024 Shoop. Tất cả các quyền được bảo lưu
+                        </div>
+                        <div class="col-8 text-end fw-light px-7">
+                            Quốc gia & Khu vực: Sigapore | Indonesia | Thái Lan | Malaysia | Việt Nam | Philippines
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row py-4 fw-light px-7">
+                        Địa chỉ: Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình, Thành
+                        phố Hà
+                        Nội, Việt Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shoop.vn
+                        <br>Ⓒ 2015 - Bản quyền thuộc về Công ty TNHH Shoop
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

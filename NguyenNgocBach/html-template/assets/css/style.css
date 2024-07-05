@@ -1,0 +1,159 @@
+.px-7 {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.px-10 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.input-container i,
+.input-container button {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.input-container button {
+    height: 80%;
+    width: 60px;
+}
+
+.input-container .invalid-feedback{
+    position: absolute;
+    top:100%;
+}
+
+.a-green {
+    text-decoration: none;
+    color: #007006;
+}
+
+.a-black {
+    text-decoration: none;
+    color: black;
+}
+
+.a-light a {
+    text-decoration: none;
+    color: #7e7e7e;
+}
+
+.a-white a {
+    text-decoration: none;
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.carousel-inner-img img {
+    width: 17%;
+}
+
+.navbar-store>p>a {
+    text-decoration: none;
+    color: #979797;
+    font-weight: bolder;
+}
+
+.navbar-store>div>a {
+    text-decoration: none;
+    color: #979797;
+}
+
+.menu-navbar {
+    height: 70px;
+    background-color: #007006;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-navbar .navbar-collapse {
+    background-color: #007006;
+}
+
+.products>div>a {
+    margin: 0;
+}
+
+.products .fw-light {
+    font-size: 13px;
+    color: #7d7d7d;
+    margin: 0;
+}
+
+.font-color_red {
+    color: #ab1515;
+}
+
+.products .rounded-circle {
+    width: 40px;
+    height: 40px;
+}
+
+.font-color_green {
+    color: #007006;
+}
+
+.font-color_white {
+    color: white;
+}
+.bg-green {
+    background-color: #007006;
+}
+
+.bg-e0e0e0 {
+    background-color: #e0e0e0;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-f9f9f9 {
+    background-color: #f9f9f9;
+}
+
+.bg-f2f8f2 {
+    background-color: #f2f8f2;
+}
+
+.bg-fdfaf7 {
+    background-color: #fdfaf7;
+}
+
+.form .form-control,
+.form button,
+.form .form-select {
+    height: 50px;
+}
+
+.div-pay img {
+    width: 20%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 3%;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.navbar-store-header .rounded-circle {
+    color: white;
+    background-color: #007006;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.navbar-collapse-menu {
+    margin-left: 45px;
+}
